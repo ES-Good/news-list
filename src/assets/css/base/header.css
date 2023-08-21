@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.header__top {
+    padding: 40px 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.header__info {
+    width: 100%;
+    padding: 0 5px;
+    padding-top: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../img/header/bg-news.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__text-block {
+    margin: 48px 0;
+}
+
+.header__title {
+    font-size: 40px;
+    font-weight: 700;
+}

@@ -1,0 +1,13 @@
+.footer {
+    background-color: #F0F6FE;
+    padding-top: 64px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 72px;
+}
+
+.footer__company-year {
+    color: #81899D;
+    font-size: 16px;
+    margin-bottom: 64px;
+}

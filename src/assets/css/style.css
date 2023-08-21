@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('base/fonts.css');
+@import url('base/containers.css');
+@import url('base/header.css');
+@import url('base/footer.css');
+@import url('base/logo.css');
+@import url('base/news-list.css');
+
+@media screen and (max-width: 1200px) {
+    .news-card {
+        width: calc(100% / 2 - 24px);
+    }
+
+    .header__info {
+        background-position-x: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .news-card {
+        width: 100%;
+    }
+
+    .header__info {
+        background-position-x: 50%;
+    }
+}
